@@ -1,0 +1,23 @@
+print("The game has loaded.")
+print("choose which door, Sugar or Butter ?")
+roomSelection = input ("Enter Sugar or Butter")
+if roomSelection == "Sugar":
+    print("Entered Sugar")
+    roomSelection = input("Enter Cookies or Brownies")
+    if roomSelection == "Cookies":
+        print("Entered Cookies")
+    elif roomSelection == "Brownies":
+        print("Entered Brownies")
+    else:
+        print("Invalid entry. Program is closing.")
+elif roomSelection == "Butter":
+    print("Entered Butter")
+    roomSelection = input("Enter Toast or Biscuits")
+    if roomSelection == "Toast":
+        print("Entered Toast")
+    elif roomSelection == "Biscuits":
+        print("Entered Biscuits")
+    else:
+        print("Invalid entry. Program is closing.")
+else:
+	print("Invalid entry. Program is closing.")
